@@ -1,0 +1,1 @@
+# AdventureCoin-Chrome-Wallet-Plugin
