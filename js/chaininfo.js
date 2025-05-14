@@ -10,7 +10,7 @@ window.onload = function (){
 
     // Set history page to open to explorer according to mainnet or testnet & set ticker according to mainnet or testnet
     if (apiget == "mainnet" || apiget == null) {
-        api = "http://157.180.76.198:4321"
+        api = "https://api.adventurecoin.quest"
         prefix = "ADVC"
         href = "http://explorer.adventurecoin.quest/#/address/" + getaddress
         $("#history").attr("href", href)

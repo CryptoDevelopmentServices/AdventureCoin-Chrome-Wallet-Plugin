@@ -21,7 +21,7 @@ window.onload = function() {
 
     // Set history page to open to explorer & sets placeholder to testnet or mainnet prefix
     if (apiget == "mainnet" || apiget == null) {
-        api = "http://157.180.76.198:4321"
+        api = "https://api.adventurecoin.quest"
         inputPlaceholder.attr("placeholder", "advc1q...")
         href = "http://explorer.adventurecoin.quest/#/address/" + address
     }
@@ -33,7 +33,7 @@ window.onload = function() {
 var errororsuccess
 function getSendAPI() {
     // Set Network config according to Endpoint selection
-    if (localStorage.getItem("api") == "http://157.180.76.198:4321" || localStorage.getItem("api") == null){
+    if (localStorage.getItem("api") == "https://api.adventurecoin.quest" || localStorage.getItem("api") == null){
         netconfig = {					
            'network': {
                 'messagePrefix': '\x19AdventureCoin Signed Message:\n',

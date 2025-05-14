@@ -20,7 +20,7 @@ window.onload = function() {
 
 function getImportAPI() {
     // Set Network config according to Endpoint selection
-    if (localStorage.getItem("api") == "http://157.180.76.198:4321" || localStorage.getItem("api") == null){
+    if (localStorage.getItem("api") == "https://api.adventurecoin.quest" || localStorage.getItem("api") == null){
         netconfig = {					
            'network': {
                 'messagePrefix': '\x19AdventureCoin Signed Message:\n',

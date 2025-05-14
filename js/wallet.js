@@ -31,7 +31,7 @@ window.onload = function (){
 
     // Set history page to open to explorer, sets placeholder to testnet or mainnet prefix & sets ticker according to mainnet or testnet
     if (apiget == "mainnet" || apiget == null) {
-        api = "http://157.180.76.198:4321"
+        api = "https://api.adventurecoin.quest"
         prefix = "ADVC"
         inputPlaceholder.attr("placeholder", "advc1q...")
         href = "http://explorer.adventurecoin.quest/#/address/" + getaddress
