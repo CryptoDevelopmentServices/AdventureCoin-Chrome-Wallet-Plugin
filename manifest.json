@@ -1,0 +1,15 @@
+{
+    "name": "AdventureCoin Wallet Extension",
+    "version": "1.2",
+    "manifest_version": 3,
+    "description": "Light Web Wallet for adventurecoin as a Chrome Extension.",
+    "action": {
+        "default_popup": "overlay.html",
+        "default_title": "Adventurecoin Wallet",
+        "default_icon": "img/logo.png"
+    },
+    "icons": {
+        "48": "img/icon48.png",
+        "128": "img/icon128.png"
+    }
+}
